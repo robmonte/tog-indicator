@@ -78,7 +78,6 @@ public class TOGIndicatorOverlay extends Overlay
 		for (Skill s : Skill.values())
 		{
 			int skillExp = client.getSkillExperience(s);
-			
 			if (skillExp < minExp)
 			{
 				minExp = skillExp;
